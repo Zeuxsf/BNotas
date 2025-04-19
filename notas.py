@@ -2,12 +2,15 @@
 import customtkinter as ctk
 import tkinter
 import os
+from PIL import Image
+
 
 #Configurações da janela principal
 janela = ctk.CTk(fg_color='snow2')
 janela.title('B-Notas')
 janela.geometry('720x600')
 janela.resizable(False,False)
+janela.iconbitmap('./logo.ico')
 
 #Textos da janela principal
 #Título:
